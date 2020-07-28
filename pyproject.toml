@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "computer-networking-a-top-down-approach"
+version = "0.1.0"
+description = ""
+authors = ["huangkai <h1770360848@outlook.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+typer = "^0.4.1"
+
+[tool.poetry.dev-dependencies]
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+
+[tool.black]
+skip-string-normalization = true
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
